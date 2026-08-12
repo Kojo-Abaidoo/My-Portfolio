@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benjamin Abaidoo-Ayin | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <p class="logo-container"><img class="logo-img" src="./Black and Beige Minimal Personal MK Initials Logo (1).png" alt="Logo"></p>
+            
+            <!-- Hamburger Menu for Mobile -->
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="ri-menu-line"></i>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#About-me">Home</a></li>
+                <li><a href="#tools">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="nav-cta">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="About-me" id="About-me">
+        <div class="hi">
+            <img class="profile-img" src="./1955.png" alt="Profile Picture">
+        </div>
+        <div class="there">
+            <h2>
+                Hi there! <br> I'm Benjamin Abaidoo-Ayin
+            </h2>
+            <p class="bio">
+                I am a self-taught developer and graphics designer based in Ghana. I am currently pursuing a bachelor's degree in Information Technology at the University of Cape Coast.
+            </p>
+            <div class="social-links">
+                <a href="https://github.com/Kojo-Abaidoo"><i class="ri-github-fill"></i></a>
+                <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="mailto:benjaminabaidoo5@gmail.com"><i class="ri-mail-line"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tools" id="tools">
+        <h2 class="section-title"><i class="ri-code-s-slash-line"></i> My Tech Stack</h2>
+        <div class="tools-grid">
+            <div class="lang">
+                <h3 class="code-label">// Programming Languages</h3>
+                <div class="skill-grid">
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>C++</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="lang">
+                <h3 class="code-label">// Software Skills</h3>
+                <div class="skill-grid">
+                    <span>Photoshop</span>
+                    <span>MS Office</span>
+                </div>
+            </div>
+            <div class="lang">
+                <h3 class="code-label">// Tools Used</h3>
+                <div class="skill-grid">
+                    <span>Photoshop</span>
+                    <span>GitHub</span>
+                    <span>VS Code</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <div id="pros">
+            <h2>My Latest Projects</h2>
+            <a href="https://github.com/Kojo-Abaidoo">
+                <button id="projects-btn">View all Projects <i class="ri-arrow-right-line"></i></button>
+            </a>
+        </div>
+        <div class="project-grid">
+            <a href="https://github.com/Kojo-Abaidoo" class="project-card">
+                <div class="card-content">
+                    <h3>Project 1</h3>
+                    <p>Web Application | Grindhouse Fitness</p>
+                </div>
+            </a>
+            <a href="https://github.com/Kojo-Abaidoo" class="project-card">
+                <div class="card-content">
+                    <h3>Project 2</h3>
+                    <p>Shoe App Purchase</p>
+                </div>
+            </a>
+            <a href="https://github.com/Kojo-Abaidoo" class="project-card">
+                <div class="card-content">
+                    <h3>Project 3</h3>
+                    <p>Simple Calculator</p>
+                </div>
+            </a>
+            <a href="https://github.com/Kojo-Abaidoo" class="project-card">
+                <div class="card-content">
+                    <h3>Project 4</h3>
+                    <p>Data Science</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="educ" id="educ">
+        <div id="academia">
+            <h5>- Education & Work</h5>
+            <h2>My Academic and Professional Journey</h2>
+        </div>
+        
+        <div class="journey-grid">
+            <div class="journey-card insight1">
+                <h3><i class="ri-school-line"></i> Education</h3>
+                <div class="timeline-item">
+                    <p class="date">2024 - 2028</p> 
+                    <p class="desc">BSc. Information Technology - University Of Cape Coast</p>    
+                </div>
+            </div>
+            <div class="journey-card insight1">
+                <h3><i class="ri-briefcase-4-fill"></i> Experience</h3>
+                <div class="timeline-item">
+                    <p class="date">2025 - Present</p>
+                    <p class="desc">Freelance Web Developer. Building responsive websites and web applications for clients.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p><i class="ri-mail-line"></i><a href="mailto:benjaminabaidoo5@gmail.com"> benjaminabaidoo5@gmail.com</a></p>
+                <p><i class="ri-linkedin-box-fill"></i><a href="">LinkedIn</a> </p>
+                <p><i class="ri-github-fill"></i> <a href="https://github.com/Kojo-Abaidoo">github.com/Kojo-Abaidoo</a></p>
+            </div>
+
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form action="">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="eg; Your name">
+                    </div>
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="youremail@email.com">
+                    </div>
+                    <div class="input-group">
+                        <label>Additional Info</label>
+                        <textarea cols="30" rows="5" placeholder="Your message here..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message <i class="ri-send-plane-fill"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p>@2026 <span id="name">Benjamin Abaidoo-Ayin.</span> All rights reserved.</p>
+            <p class="footer-link">
+                <a href="https://github.com/Kojo-Abaidoo"><i class="ri-github-fill"></i> github.com/Kojo-Abaidoo</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
