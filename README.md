@@ -1,6 +1,6 @@
 # My-Portfolio
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://your-vercel-link.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)]([https://your-vercel-link.vercel.app](https://my-portfolio-livid-omega-95.vercel.app/))
 
 This is the source code for my personal developer portfolio website. It serves as a digital resume to showcase my skills, projects, and academic background as an Information Technology student at the University of Cape Coast.
 
@@ -26,7 +26,7 @@ script.js` - Mobile navigation logic.
 Live Site
 
 The site is currently deployed on Vercel.  
-[View Live Portfolio](https://your-vercel-link.vercel.app)
+[View Live Portfolio]([https://your-vercel-link.vercel.app](https://my-portfolio-livid-omega-95.vercel.app/))
 
 Contact
 
